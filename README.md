@@ -1,2 +1,69 @@
-# PRODIGY_DS_03
-Predict customer response to bank marketing campaigns using a Decision Tree Classifier. Internship task for Prodigy Infotech.
+#Prodigy Infotech Internship - Task 3
+
+## Project: Customer Purchase Prediction using Decision Tree Classifier
+
+This project builds a **Decision Tree Classifier** to predict whether a customer will subscribe to a bank term deposit.  
+The model is trained on the **Bank Marketing Dataset** from the UCI Machine Learning Repository.
+
+---
+
+## Dataset
+
+We used `bank-additional-full.csv`, which contains:
+
+- 41,188 customer records
+- 20 input features + 1 output (`y`)
+- Categorical and numerical variables
+
+📌 Dataset Source: [UCI Repository - Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
+
+---
+
+## ⚙️ Tools and Libraries
+
+- Python
+- Google Colab
+- pandas, seaborn, matplotlib
+- scikit-learn
+
+---
+
+##  Steps Implemented
+
+1. Load dataset and clean data
+2. Drop `duration` column (to avoid data leakage)
+3. Encode categorical variables
+4. Split data into training and test sets
+5. Train Decision Tree using `entropy` criterion
+6. Evaluate accuracy, precision, recall, F1
+7. Visualize tree and feature importance
+
+---
+
+## Model Results
+
+- **Accuracy**: ~88%
+- **Visualization**: Tree and feature importance shown
+- **Best Features**: `emp.var.rate`, `euribor3m`, `nr.employed`
+
+---
+
+## Screenshots
+
+| Decision Tree | Feature Importance |
+|---------------|--------------------|
+| ![Tree](tree.png) | ![Features](features.png) |
+
+---
+
+## 🚀 Run This Project
+
+### 🧪 Option 1: Run on Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/prodigy-task-3-decision-tree/blob/main/decision_tree_classifier.ipynb)
+
+### 🧰 Option 2: Run Locally
+
+```bash
+pip install -r requirements.txt
+python decision_tree_classifier.py  # Or open the notebook
