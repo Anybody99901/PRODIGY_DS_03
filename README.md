@@ -52,19 +52,13 @@ We used `bank-additional-full.csv`, which contains:
 
 | Decision Tree | Feature Importance |
 |---------------|--------------------|
-| ![Tree](![Image](https://github.com/user-attachments/assets/f01a3120-22a7-450b-bef3-d185e03b29a5)
-![Features]([features.png)](https://github.com/user-attachments/assets/a3310292-f920-4390-8b21-998274ff6031) |
+| ![Image](https://github.com/user-attachments/assets/f01a3120-22a7-450b-bef3-d185e03b29a5) | ![Features](https://github.com/user-attachments/assets/a3310292-f920-4390-8b21-998274ff6031) |
 
 ---
 
 ## 🚀 Run This Project
 
-### 🧪 Option 1: Run on Google Colab
+### Run on Google Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15RIYh_aPBPyvKYjEFrl5eGzhKK1GdClN)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/prodigy-task-3-decision-tree/blob/main/decision_tree_classifier.ipynb)
-
-### 🧰 Option 2: Run Locally
-
-```bash
-pip install -r requirements.txt
-python decision_tree_classifier.py  # Or open the notebook
+(https://colab.research.google.com/drive/15RIYh_aPBPyvKYjEFrl5eGzhKK1GdClN)
