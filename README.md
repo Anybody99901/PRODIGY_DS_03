@@ -60,5 +60,3 @@ We used `bank-additional-full.csv`, which contains:
 
 ### Run on Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15RIYh_aPBPyvKYjEFrl5eGzhKK1GdClN)
-
-(https://colab.research.google.com/drive/15RIYh_aPBPyvKYjEFrl5eGzhKK1GdClN)
