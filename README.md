@@ -52,7 +52,8 @@ We used `bank-additional-full.csv`, which contains:
 
 | Decision Tree | Feature Importance |
 |---------------|--------------------|
-| ![Tree](tree.png) | ![Features](features.png) |
+| ![Tree](![Image](https://github.com/user-attachments/assets/f01a3120-22a7-450b-bef3-d185e03b29a5)
+![Features]([features.png)](https://github.com/user-attachments/assets/a3310292-f920-4390-8b21-998274ff6031) |
 
 ---
 
